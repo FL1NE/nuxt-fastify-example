@@ -40,6 +40,8 @@ export default {
     '@nuxtjs/pwa',
   ],
 
+  serverMiddleware: [{ path: '/backend', handler: '~/server/' }],
+
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
